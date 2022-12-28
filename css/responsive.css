@@ -1,0 +1,361 @@
+@media (max-width: 991px) {
+	
+	/* -=-=-=-=-=-=-=-=-=-=-
+			header area 
+	 -=-=-=-=-=-=-=-=-=-=-=-*/
+	.food-main-menu{
+		background: #636e72;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		z-index: 9;
+		display: none;
+		opacity: .90;
+	}
+	.food-main-menu ul{
+		display: block;
+	}
+	.food-main-menu ul li a{
+		padding: 10px 20px;
+		display: block;
+	}
+	.food-main-menu ul li a:hover{
+		background: #dfe6e9;
+		color: #000;
+	}
+	.food-menu-icon{
+		display: block;
+		text-align: right;
+	}
+	.food-menu-icon i{
+		font-size: 25px;
+		color: #fff;
+	}
+	.food-menu-icon i.fa-times{
+		display: none;
+	}
+	.food-hero-content{
+		width: 30%;
+	}
+	.food-hero-content h1{
+		font-size: 40px;
+	}
+	.food-hero-content p{
+		font-size: 12px;
+	}
+	.food-hero-content button{
+		border: none;
+		background: #ffc200;
+		color: #000;
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 5px;
+		margin: 10px 0 0;
+		border-radius: 5px;
+	}
+	/* -=-=-=-=-=-=-=-=-=-=-
+		Best Food area 
+	 -=-=-=-=-=-=-=-=-=-=-=-*/
+	 .food-title-sec{
+		text-align: center;
+	 }
+	 .food-title{
+	 	padding: 50px 0 30px;
+	 }
+	 .food-img{
+	 	width:50%; 
+	 }
+	 .food-img img{
+	 	width: 100%;
+	 }
+	 
+	 .order-button img{
+	 	width: 50px;
+	 	height: 50px;
+	 	top: 40%;
+		left: 60%;
+		-webkit-transform: translate(-50%,-50%);
+		    -ms-transform: translate(-50%,-50%);
+		        transform: translate(-50%,-50%);
+	 }
+
+	.order-button button{
+		border: none;
+		background: #ffc200;
+		color: #000;
+		font-size: 12px;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 6px;
+		border-radius: 5px;
+		top: 80%;
+		left: 60%;
+		-webkit-transform: translate(-50%,-50%);
+		    -ms-transform: translate(-50%,-50%);
+		        transform: translate(-50%,-50%);
+	}
+
+	 .food-bottom{
+	margin: auto;
+	text-align: center;
+	
+	}
+	.food-bottom h3{
+		font-size: 42px;
+		color: #333333;
+		padding: 20px 0;
+		text-transform: capitalize;
+		
+	}
+	.food-bottom p{
+		font-size: 15px;
+		color: #333333;
+		
+	}
+	.col-lg-4{
+		margin: auto;
+		padding:  0px 67px;
+	}
+	/* -=-=-=-=-=-=-=-=-=-=-
+		  Carousel area 
+	 -=-=-=-=-=-=-=-=-=-=-=-*/
+	.carousel-title h1{
+	display: none;
+	}
+	.carousel-title p{
+		display: none;
+	}
+
+	.owl-theme{
+		padding: 50px 50px 10px;
+	}
+		.item-inner button{
+		padding: 5px;
+		border: none;
+		background: #ffc200 ;
+		border-radius: 5px;
+		margin: 0px 0px 10px;
+		font-size: 10px;
+	}
+	
+	/* -=-=-=-=-=-=-=-=-=-=-
+		  Chef team area 
+	 -=-=-=-=-=-=-=-=-=-=-=-*/
+	.chef-top h1{
+	color: #ffc200;
+	font-size: 35px;
+	font-family: 'Grand Hotel', cursive;
+	text-transform: capitalize;
+	text-align: center;
+	}
+	.chef-top p{
+		font-size: 12px;
+		color: #fff;
+		width: 65%;
+		margin: auto;
+		padding: 0px 0px 60px;
+	}
+	
+	.menus{
+		text-align: center;
+	}
+	.menus img{
+		height: 50px;
+		width: 50px;
+		margin: 50px auto 10px;
+	}
+	.menus ul li{
+		color: #fff;
+		padding: 8px;
+	}
+
+	.menus form{
+		margin: 50px 0;
+	}
+	.menus form label{
+		font-size: 20px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.bottom-icon a i{
+		margin-bottom: 20px;
+	}
+
+}
+@media (max-width: 575px) {
+	
+	/* -=-=-=-=-=-=-=-=-=-=-
+		  Header area 
+	 -=-=-=-=-=-=-=-=-=-=-=-*/
+	.food-hero-content h1{
+		font-size: 40px;
+	}
+	.food-hero-content p{
+		display: none;
+	}
+
+	.food-hero-content button{
+	border: none;
+	background: #ffc200;
+	color: #000;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 5px;
+	margin: 10px 0 0;
+	border-radius: 5px;
+	}
+
+	.food-menu-icon i{
+		font-size: 20px;
+		color: #fff;
+	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-
+		Best Food area 
+	 -=-=-=-=-=-=-=-=-=-=-=-*/
+
+	 .food-title h1{
+	 	font-size: 40px;
+	 }
+	 .food-title p{
+	 	font-size: 10px;
+	 }
+	 .food-img{
+	 	width:50%; 
+	 }
+	 .food-img img{
+	 	width: 100%;
+	 }
+	 
+	 .order-button img{
+	 	width: 35px;
+	 	height: 35px;
+	 	top: 40%;
+		left: 45%;
+		-webkit-transform: translate(-50%,-50%);
+		    -ms-transform: translate(-50%,-50%);
+		        transform: translate(-50%,-50%);
+	 }
+
+	.order-button button{
+		border: none;
+		background: #ffc200;
+		color: #000;
+		font-size: 10px;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 5px;
+		border-radius: 5px;
+		top: 60%;
+		left: 45%;
+		-webkit-transform: translate(-50%,-50%);
+		    -ms-transform: translate(-50%,-50%);
+		        transform: translate(-50%,-50%);
+	}
+	.owl-prev{
+		position: absolute;
+		top: -145px;
+		left: -35px;
+	}
+	.owl-next{
+		position: absolute;
+		top: -145px;
+		right: -35px;
+	}
+	.chef-img{
+		position: relative;
+	}
+	
+	/* -=-=-=-=-=-=-=-=-=-=-
+		  Carousel area 
+	 -=-=-=-=-=-=-=-=-=-=-=-*/
+	.carousel-title h1,p{
+		display: none;
+	}
+	
+	.owl-theme{
+		padding: 200px 60px 120px;
+	}
+	.item-inner button{
+		padding: 3px;
+		border: none;
+		background: #ffc200 ;
+		border-radius: 5px;
+		margin: 0px 0px 8px;
+		font-size: 9px;
+	}
+	.item{
+		width: 100%;
+	}
+
+	/* =-=-=-=-=-=-=-=-=-=-=-=-=-=
+			video CSS
+	=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+	.food-video{
+		padding: 120px 0;
+		text-align: center;
+	}
+
+	.food-video a{
+		font-size: 50px;
+		color: #fff;
+	}
+
+	/* -=-=-=-=-=-=-=-=-=-=-
+		  Chef team area 
+	 -=-=-=-=-=-=-=-=-=-=-=-*/
+	.chef-img{
+		text-align: center;
+		margin: auto;	
+	}
+	.chef-top h1{
+		color: #ffc200;
+		font-size: 30px;
+		font-family: 'Grand Hotel', cursive;
+		text-transform: capitalize;
+		text-align: center;
+	}
+	.chef-top p{
+		display: none;
+	}
+	.chef-bottom{
+		margin: auto;
+	}
+	.chef-bottom p{
+		display: block;
+	}
+	/*-- =-=-=-=-=-=-=-=-=-=-=-=
+		   Download Area
+	=-=-=-=-=-=-=-=-=-=-=-=-=-- */
+	.f-d-inner-title h1{
+		color: #ffc200;
+		font-size: 50px;
+	}
+	.f-d-inner-title h2{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		color: #fff;
+		font-size: 20px;
+		text-transform: capitalize;
+	}
+	.f-d-inner-button button{
+		font-size: 12px;
+	}
+
+	/*-- =-=-=-=-=-=-=-=-=-=-=-=
+		   Footer Area
+	=-=-=-=-=-=-=-=-=-=-=-=-=-- */
+	.footer-content p{
+ 	padding: 2px;
+ 	color: #fff;
+ 	font-size: 8px;
+ 	display: block;
+	}
+
+
+}
+/*-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-THE END=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=- */
